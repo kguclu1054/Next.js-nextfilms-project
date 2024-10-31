@@ -1,9 +1,8 @@
 import react from "react";
+import HomeContainer from "@/containers/home";
 
 function HomePage(){
-  return <div>
-    <h1 className= "title">Home</h1>
-  </div>
+  return <HomeContainer/>
 }
 
 export default HomePage;

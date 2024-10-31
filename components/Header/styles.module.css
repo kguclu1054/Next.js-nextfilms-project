@@ -1,6 +1,6 @@
 .header {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem; /* Header içi boşluk */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,8 +18,8 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 24px;
+  gap: 4px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: -1px;
   color: #fafafa; /* Logo rengi */
@@ -27,17 +27,12 @@
 
 .navigationMenu {
   display: flex;
-  gap: 48px;
+  gap: 24px;
   color: #fafafa; /* Menü rengi */
   font-weight: 700;
-  letter-spacing: 2px;
-}
-
-.title {
-  color: white; /* Title rengi beyaz */
-  font-size: 24px; /* Title font boyutu */
-  margin: 0;
-  text-align: center; /* Title merkezlenmiş */
+  letter-spacing: 1px;
+  margin-left: auto;
+  font-size: 14px; /* Menü için daha küçük font boyutu */
 }
 
 .movieWrapper {
@@ -144,4 +139,3 @@
     font-size: 14px;
   }
 }
-

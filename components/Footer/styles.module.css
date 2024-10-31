@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black; /* Arka plan rengini siyah yap */
+    color: white; /* Metin rengini beyaz yap */
+    padding: 1rem; /* İç boşluk ekle */
+  }
+  
+  .footer a {
+    text-decoration: underline;
+    color: white; /* Link rengini beyaz yap */
+  }
+  
+  

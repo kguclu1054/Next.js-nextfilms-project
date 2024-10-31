@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link"; 
-import styles from '../styles.module.css'; 
+import Link from "next/link";
+import styles from './styles.module.css'; // components/Footer'daki styles.module.css dosyasını kullan
 
 function Footer() {
     return (
@@ -14,3 +14,4 @@ function Footer() {
 }
 
 export default Footer;
+
